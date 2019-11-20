@@ -20,6 +20,8 @@ public class D_ScrollViewContainer: UIStackView {
         self.axis = axis
         self.spacing = spacing
         self.containerAxis = axis
+        
+        print("aaa")
     }
     
     required init(coder: NSCoder) {
@@ -41,6 +43,8 @@ public class D_ScrollViewContainer: UIStackView {
         } else if containerAxis == .horizontal {
             heightAnchor.constraint(equalTo: scrollView.heightAnchor).isActive = true
         }
+        
+        print("aaabbbs")
         
         return self
     }

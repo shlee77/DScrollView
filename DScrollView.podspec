@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'shlee77' => 'shlee@neowiz.com' }
   s.source           = { :git => 'https://github.com/shlee77/DScrollView.git', :tag => s.version.to_s }
   
-  s.social_media_url = 'https://youtube.com/rebeloper'
+  #s.social_media_url = 'https://youtube.com/rebeloper'
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'Source/**/*.swift'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
       "ios": "12.0"
   }
   
-  s.dependency 'TinyConstraints', '~> 24.0.0'
+  # s.dependency 'TinyConstraints', '~> 24.0.0'
   
   # s.resource_bundles = {
   #   'DScrollView' => ['DScrollView/Assets/*.png']

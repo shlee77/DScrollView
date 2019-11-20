@@ -1,8 +1,8 @@
 {
   "name": "DScrollView",
   "version": "0.1.0",
-  "summary": "A short description of DScrollView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "DScrollView is UIScrollView in one line of code.",
+  "description": "'DscrollView is an awesome pod aimed to make your life easier around UIScrollViews. '",
   "homepage": "https://github.com/shlee77/DScrollView",
   "license": {
     "type": "MIT",
@@ -16,7 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "DScrollView/Classes/**/*"
+  "source_files": "Source/**/*.swift",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
